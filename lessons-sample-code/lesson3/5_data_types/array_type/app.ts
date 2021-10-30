@@ -14,3 +14,6 @@ let fruit2: (string | number)[] = ["Apple", 2, 4, "Carrot"];
 // Alternative syntax
 let fruit3: Array<string | number> = ["Apple", 2, 4, "Carrot"];
 
+// Array of tuple
+let persons: [number, string][];
+persons = [[101, "Anna"], [102, "Bob"]];
